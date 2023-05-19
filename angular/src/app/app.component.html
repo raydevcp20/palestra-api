@@ -1,0 +1,54 @@
+<div class="form-box">
+  <h1>Exemplo de formulário</h1>
+  <form>
+    <div class="label-float">
+      <input
+        type="number"
+        placeholder=" "
+        name="cep"
+        [(ngModel)]="cep"
+      />
+      <label>Digite seu CEP</label>
+    </div>
+    <div class="label-float">
+      <input
+        type="text"
+        placeholder=" "
+        name="logradouro"
+        [(ngModel)]="local.logradouro"
+        disabled
+      />
+      <label>Logradouro</label>
+    </div>
+    <div class="label-float">
+      <input
+        type="text"
+        placeholder=" "
+        name="bairro"
+        [(ngModel)]="local.bairro"
+        disabled
+      />
+      <label>Bairro</label>
+    </div>
+    <div class="label-float">
+      <input
+        type="text"
+        placeholder=" "
+        name="localidade"
+        [(ngModel)]="local.localidade"
+        disabled
+      />
+      <label>Localidade</label>
+    </div>
+    <div class="label-float">
+      <input
+        type="text"
+        placeholder=" "
+        name="uf"
+        [(ngModel)]="local.uf"
+        disabled
+      />
+      <label>UF</label>
+    </div>
+  </form>
+</div>
